@@ -1,0 +1,31 @@
+.title {
+    display: flex;
+    justify-content: space-between;
+}
+.title p {
+    padding: 10px;
+    font-weight: bold;
+}
+.titile span {
+    margin-right: 10px;
+}
+.mainCard {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-left: 2em;
+    margin-top: 2em;
+    gap: 30px 10px;
+}
+
+.btnN {
+    display: flex;
+    justify-content: space-between;
+}
+@media only screen and (max-width: 600px) {
+    .mainCard {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: center;
+        justify-self: center;
+    }
+}

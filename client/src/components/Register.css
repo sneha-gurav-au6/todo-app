@@ -1,0 +1,18 @@
+.register {
+    background-image: url(../image/ban4.jpg);
+    height: 100vh;
+}
+.parent{
+width: 100%;
+display: grid;
+justify-content: center;
+align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+height: 100vh;
+
+
+}
+.formdata {
+color: white;
+
+}
